@@ -19,7 +19,7 @@ console.log(`Open this URL to authenticate: ${connection.redirectUrl}`);
 }
 const tools = await composioToolset.getTools({
     apps: ["github"],
-    useCase: "authenticated repositories"
+    useCase: "authenticated repositories",
 }, 'esalazarv');
 
 console.log(tools);
